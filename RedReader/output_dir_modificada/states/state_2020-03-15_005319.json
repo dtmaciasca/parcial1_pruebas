@@ -1,0 +1,5562 @@
+{
+  "tag": "2020-03-15_005319",
+  "state_str": "faf27216c4f0738ea564c3da812e5cc4",
+  "state_str_content_free": "c1503b41d99a84fc7fec57e49bab6601",
+  "foreground_activity": "org.quantumbadger.redreader/.activities.PostListingActivity",
+  "activity_stack": [
+    "org.quantumbadger.redreader/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.smspush/.WapPushManager",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService"
+  ],
+  "views": [
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1,
+        141,
+        142
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1080*1920",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "287d09c7791ddf36979461c638ebb70b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1080*1794",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "4790c9174f97559d1985fba8f87076c8",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1080*1731",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "59aa6673c88b591557f924f046f53261",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1080*1731",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "a619b406e768623eeac8b770689141f8",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/action_bar_root"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1080*1731",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "6b216461f27832e00abf3221a807efec",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1080*1731",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "14f0574866eaaafc88ac270e5b0f4928",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1080*126",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2445a5ae832368587ddbe1d2006513bf",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        11
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/rr_actionbar_toolbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1080*126",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.quantumbadger.redreader:id/rr_actionbar_toolbar[text]None[enabled,,]",
+      "view_str": "3058975c18319b9900cfb32363cedd92",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]org.quantumbadger.redreader:id/rr_actionbar_toolbar"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9,
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          63
+        ],
+        [
+          479,
+          189
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/actionbar_title_outer",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.RelativeLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "479*126",
+      "signature": "[class]android.widget.RelativeLayout[resource_id]org.quantumbadger.redreader:id/actionbar_title_outer[text]None[enabled,,]",
+      "view_str": "75baf27ffdccfdd27d117fe79cf649ee",
+      "content_free_signature": "[class]android.widget.RelativeLayout[resource_id]org.quantumbadger.redreader:id/actionbar_title_outer"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          42,
+          94
+        ],
+        [
+          105,
+          157
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/actionbar_title_back_image",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "63*63",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/actionbar_title_back_image[text]None[enabled,,]",
+      "view_str": "29d88e55260c587c455cf6de3b0c9e5b",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/actionbar_title_back_image"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          126,
+          63
+        ],
+        [
+          437,
+          189
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/actionbar_title_text",
+      "checked": false,
+      "text": "/r/listentothis",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 10,
+      "size": "311*126",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/actionbar_title_text[text]/r/listentothis[enabled,,]",
+      "view_str": "4621da4fa3df11900461ed88a2282f52",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/actionbar_title_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12,
+        13,
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          702,
+          63
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 11,
+      "size": "378*126",
+      "signature": "[class]android.support.v7.widget.LinearLayoutCompat[resource_id]None[text]None[enabled,,]",
+      "view_str": "00646982e6ac265bf562852dc111dab3",
+      "content_free_signature": "[class]android.support.v7.widget.LinearLayoutCompat[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Sort Posts",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          702,
+          63
+        ],
+        [
+          828,
+          189
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "126*126",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "7243d092a652d6699bc61c9cc16a3b0d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Refresh Posts",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          828,
+          63
+        ],
+        [
+          954,
+          189
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 13,
+      "size": "126*126",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]None[enabled,,]",
+      "view_str": "7243d092a652d6699bc61c9cc16a3b0d",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "More options",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          954,
+          63
+        ],
+        [
+          1080,
+          189
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 11,
+      "temp_id": 14,
+      "size": "126*126",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "fad67d4d5c90e7c2112cf357527221f3",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/rr_actionbar_content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 15,
+      "size": "1080*1605",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.quantumbadger.redreader:id/rr_actionbar_content[text]None[enabled,,]",
+      "view_str": "27dd4c82a23896303e7e07d6fb1d7b1e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.quantumbadger.redreader:id/rr_actionbar_content"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        139
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1080*1605",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ca66f5ef0a4504029228709f958c65b6",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/scrollbar_recyclerview_refreshlayout",
+      "checked": false,
+      "text": null,
+      "class": "android.view.ViewGroup",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1080*1605",
+      "signature": "[class]android.view.ViewGroup[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_refreshlayout[text]None[enabled,,]",
+      "view_str": "cc77ea294ba86f03b33455724449e6d6",
+      "content_free_signature": "[class]android.view.ViewGroup[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_refreshlayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 10,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        19,
+        23,
+        35,
+        48,
+        61,
+        74,
+        87,
+        100,
+        113,
+        126
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/scrollbar_recyclerview_recyclerview",
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 17,
+      "temp_id": 18,
+      "size": "1080*1605",
+      "signature": "[class]android.support.v7.widget.RecyclerView[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_recyclerview[text]None[enabled,,]",
+      "view_str": "b2eb096b0e82c99be4ff0024dde2d0e1",
+      "content_free_signature": "[class]android.support.v7.widget.RecyclerView[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_recyclerview"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        20
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          367
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 19,
+      "size": "1080*178",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "fc259c24bcb2d36214b515541af7a99d",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        21,
+        22
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          367
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 19,
+      "temp_id": 20,
+      "size": "1080*178",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2bd7f664551b44998e1e1fcb2b669ad9",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          39,
+          215
+        ],
+        [
+          1041,
+          292
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "r/ListenToThis: The New Music Machine",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 21,
+      "size": "1002*77",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]r/ListenToThis: The New Music Machine[enabled,,]",
+      "view_str": "7c6782dd7bcc8ab92c6cdd3abbd8a1a8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          39,
+          292
+        ],
+        [
+          1041,
+          341
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": "15,607,567 subscribers",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 20,
+      "temp_id": 22,
+      "size": "1002*49",
+      "signature": "[class]android.widget.TextView[resource_id]None[text]15,607,567 subscribers[enabled,,]",
+      "view_str": "20d9c7bd64324967284895491b5bc474",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        24,
+        34
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          367
+        ],
+        [
+          1080,
+          536
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 23,
+      "size": "1080*169",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        25,
+        26
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          367
+        ],
+        [
+          1080,
+          536
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 24,
+      "size": "1080*169",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          367
+        ],
+        [
+          1080,
+          368
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 24,
+      "temp_id": 25,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        27,
+        28,
+        31
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          368
+        ],
+        [
+          1080,
+          536
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 24,
+      "temp_id": 26,
+      "size": "1080*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          368
+        ],
+        [
+          0,
+          536
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 27,
+      "size": "0*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "46b7e496781a6cbcd3f91bea2df0786e",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        29,
+        30
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          375
+        ],
+        [
+          949,
+          528
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 28,
+      "size": "949*153",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "9d309a3cc739c366e88378faad09ca95",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          5,
+          375
+        ],
+        [
+          944,
+          439
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "Music Melting Pot [Week of March 09, 2020]",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 29,
+      "size": "939*64",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]Music Melting Pot [Week of March 09, 2020][enabled,,]",
+      "view_str": "7612b69b4ccb17a394f589ac79b65f1c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          5,
+          439
+        ],
+        [
+          944,
+          528
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": " STICKY    melting pot\u202d   27 pts 6 days, 4 hours ago by AutoModerator (self.listentothis)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 28,
+      "temp_id": 30,
+      "size": "939*89",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]None[enabled,,]",
+      "view_str": "9d9cae8b7cbd6bdbd0d82f35cca9d409",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        32,
+        33
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          368
+        ],
+        [
+          1080,
+          536
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 26,
+      "temp_id": 31,
+      "size": "131*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "eca7614c78ac8985957c4f123819cb11",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          404
+        ],
+        [
+          1059,
+          467
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 32,
+      "size": "89*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          472
+        ],
+        [
+          1080,
+          511
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "169",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 31,
+      "temp_id": 33,
+      "size": "131*39",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]169[enabled,,]",
+      "view_str": "eacd04c3cdeaeb5d9210049c61bdaf1a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          367
+        ],
+        [
+          1080,
+          481
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 23,
+      "temp_id": 34,
+      "size": "1080*114",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        36,
+        47
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          536
+        ],
+        [
+          1080,
+          705
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 35,
+      "size": "1080*169",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        37,
+        38
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          536
+        ],
+        [
+          1080,
+          705
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "1080*169",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          536
+        ],
+        [
+          1080,
+          537
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 36,
+      "temp_id": 37,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        39,
+        41,
+        44
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          537
+        ],
+        [
+          1080,
+          705
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 36,
+      "temp_id": 38,
+      "size": "1080*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        40
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          537
+        ],
+        [
+          168,
+          705
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 39,
+      "size": "168*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a1b7d9507882719c50ceed6932e52d0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          537
+        ],
+        [
+          168,
+          705
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_thumbnail_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 39,
+      "temp_id": 40,
+      "size": "168*168",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view[text]None[enabled,,]",
+      "view_str": "68bde93d83f916083c4068f4fea98fa1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        42,
+        43
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          561
+        ],
+        [
+          949,
+          680
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 41,
+      "size": "781*119",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "542b07534091f98505b2e2f56565b03b",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          561
+        ],
+        [
+          944,
+          625
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "MAITA - Geography (Indie/Indie Folk) [2017]",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 42,
+      "size": "771*64",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]MAITA - Geography (Indie/Indie Folk) [2017][enabled,,]",
+      "view_str": "94c0d418bccf90a6446c623b97dd95a1",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          625
+        ],
+        [
+          944,
+          680
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": "300 pts 8 hours, 56 mins ago by railbirds (youtube.com)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 41,
+      "temp_id": 43,
+      "size": "771*55",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]None[enabled,,]",
+      "view_str": "9d9cae8b7cbd6bdbd0d82f35cca9d409",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        45,
+        46
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          537
+        ],
+        [
+          1080,
+          705
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 38,
+      "temp_id": 44,
+      "size": "131*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "65b03c03dd119e516bbfe5a9da811b7e",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          573
+        ],
+        [
+          1059,
+          636
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 45,
+      "size": "89*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          641
+        ],
+        [
+          1080,
+          680
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "8",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 44,
+      "temp_id": 46,
+      "size": "131*39",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]8[enabled,,]",
+      "view_str": "d3893d7c47e618523d48f56bfdfcbea6",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          536
+        ],
+        [
+          1080,
+          650
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 47,
+      "size": "1080*114",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        49,
+        60
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          705
+        ],
+        [
+          1080,
+          902
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 48,
+      "size": "1080*197",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        50,
+        51
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          705
+        ],
+        [
+          1080,
+          902
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 49,
+      "size": "1080*197",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          705
+        ],
+        [
+          1080,
+          706
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 49,
+      "temp_id": 50,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        52,
+        54,
+        57
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          706
+        ],
+        [
+          1080,
+          902
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 49,
+      "temp_id": 51,
+      "size": "1080*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        53
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          706
+        ],
+        [
+          168,
+          902
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 52,
+      "size": "168*196",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a1b7d9507882719c50ceed6932e52d0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          706
+        ],
+        [
+          168,
+          902
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_thumbnail_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 52,
+      "temp_id": 53,
+      "size": "168*196",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view[text]None[enabled,,]",
+      "view_str": "68bde93d83f916083c4068f4fea98fa1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        55,
+        56
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          706
+        ],
+        [
+          949,
+          902
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 54,
+      "size": "781*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "5ef489de9f0c01a080b1660df6d71725",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          706
+        ],
+        [
+          944,
+          813
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "No Trend - Teen Love [Post-punk, no wave, noise rock] (1983)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 54,
+      "temp_id": 55,
+      "size": "771*107",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]None[enabled,,]",
+      "view_str": "b87c11aa149d9bc4be39d0207dd1961c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          813
+        ],
+        [
+          944,
+          902
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": "91 pts 6 hours, 13 mins ago by memeintoshplus (youtube.com)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 54,
+      "temp_id": 56,
+      "size": "771*89",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]None[enabled,,]",
+      "view_str": "9d9cae8b7cbd6bdbd0d82f35cca9d409",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        58,
+        59
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          706
+        ],
+        [
+          1080,
+          902
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 51,
+      "temp_id": 57,
+      "size": "131*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "3803c97bc569834c651314113efa2fdd",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          756
+        ],
+        [
+          1059,
+          819
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 57,
+      "temp_id": 58,
+      "size": "89*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          824
+        ],
+        [
+          1080,
+          863
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "3",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 57,
+      "temp_id": 59,
+      "size": "131*39",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]3[enabled,,]",
+      "view_str": "0a5b5f9aeded110c949cbb9e102df701",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          705
+        ],
+        [
+          1080,
+          819
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 48,
+      "temp_id": 60,
+      "size": "1080*114",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        62,
+        73
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          902
+        ],
+        [
+          1080,
+          1071
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 61,
+      "size": "1080*169",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        63,
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          902
+        ],
+        [
+          1080,
+          1071
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 62,
+      "size": "1080*169",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          902
+        ],
+        [
+          1080,
+          903
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 62,
+      "temp_id": 63,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        65,
+        67,
+        70
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          903
+        ],
+        [
+          1080,
+          1071
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 62,
+      "temp_id": 64,
+      "size": "1080*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        66
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          903
+        ],
+        [
+          168,
+          1071
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 65,
+      "size": "168*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a1b7d9507882719c50ceed6932e52d0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          903
+        ],
+        [
+          168,
+          1071
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_thumbnail_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 65,
+      "temp_id": 66,
+      "size": "168*168",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view[text]None[enabled,,]",
+      "view_str": "68bde93d83f916083c4068f4fea98fa1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        68,
+        69
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          906
+        ],
+        [
+          949,
+          1068
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 67,
+      "size": "781*162",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "5ef489de9f0c01a080b1660df6d71725",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          906
+        ],
+        [
+          944,
+          1013
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "Musg\u00f6 - After You've Gone [indietronic / trip-hop] (2019)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 68,
+      "size": "771*107",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]None[enabled,,]",
+      "view_str": "b87c11aa149d9bc4be39d0207dd1961c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1013
+        ],
+        [
+          944,
+          1068
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": "106 pts 8 hours, 33 mins ago by Ayayoska (youtu.be)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 67,
+      "temp_id": 69,
+      "size": "771*55",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]None[enabled,,]",
+      "view_str": "9d9cae8b7cbd6bdbd0d82f35cca9d409",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        71,
+        72
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          903
+        ],
+        [
+          1080,
+          1071
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 64,
+      "temp_id": 70,
+      "size": "131*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "9f55dc389d71195e9590907be2610963",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          939
+        ],
+        [
+          1059,
+          1002
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 71,
+      "size": "89*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1007
+        ],
+        [
+          1080,
+          1046
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "7",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 70,
+      "temp_id": 72,
+      "size": "131*39",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]7[enabled,,]",
+      "view_str": "ef4523692166fa8a9d7cf1a1b2592ad3",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          902
+        ],
+        [
+          1080,
+          1016
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 61,
+      "temp_id": 73,
+      "size": "1080*114",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        75,
+        86
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1071
+        ],
+        [
+          1080,
+          1240
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 74,
+      "size": "1080*169",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        76,
+        77
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1071
+        ],
+        [
+          1080,
+          1240
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 75,
+      "size": "1080*169",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1071
+        ],
+        [
+          1080,
+          1072
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 75,
+      "temp_id": 76,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        78,
+        80,
+        83
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1072
+        ],
+        [
+          1080,
+          1240
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 75,
+      "temp_id": 77,
+      "size": "1080*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        79
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1072
+        ],
+        [
+          168,
+          1240
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 77,
+      "temp_id": 78,
+      "size": "168*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a1b7d9507882719c50ceed6932e52d0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1072
+        ],
+        [
+          168,
+          1240
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_thumbnail_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 78,
+      "temp_id": 79,
+      "size": "168*168",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view[text]None[enabled,,]",
+      "view_str": "68bde93d83f916083c4068f4fea98fa1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        81,
+        82
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          1079
+        ],
+        [
+          949,
+          1232
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 77,
+      "temp_id": 80,
+      "size": "781*153",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "9eea8cf2e70cf4dd1f2c8f4f887098ef",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1079
+        ],
+        [
+          944,
+          1143
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "Slotface -- Telepathetic [pop punk] 2020",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 81,
+      "size": "771*64",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]Slotface -- Telepathetic [pop punk] 2020[enabled,,]",
+      "view_str": "59adf1f9957dfec3e8a7522a41798ad8",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1143
+        ],
+        [
+          944,
+          1232
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": "677 pts 20 hours, 45 mins ago by Cheesy135 (youtube.com)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 80,
+      "temp_id": 82,
+      "size": "771*89",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]None[enabled,,]",
+      "view_str": "9d9cae8b7cbd6bdbd0d82f35cca9d409",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        84,
+        85
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1072
+        ],
+        [
+          1080,
+          1240
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 77,
+      "temp_id": 83,
+      "size": "131*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "7c5cb34e43990b0ba95a975bfa3b1128",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          1108
+        ],
+        [
+          1059,
+          1171
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 83,
+      "temp_id": 84,
+      "size": "89*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1176
+        ],
+        [
+          1080,
+          1215
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "52",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 83,
+      "temp_id": 85,
+      "size": "131*39",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]52[enabled,,]",
+      "view_str": "f3c892cbca698e56bc402adfbcf9ba12",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1071
+        ],
+        [
+          1080,
+          1185
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 74,
+      "temp_id": 86,
+      "size": "1080*114",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        88,
+        99
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1240
+        ],
+        [
+          1080,
+          1409
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 87,
+      "size": "1080*169",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        89,
+        90
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1240
+        ],
+        [
+          1080,
+          1409
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 87,
+      "temp_id": 88,
+      "size": "1080*169",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1240
+        ],
+        [
+          1080,
+          1241
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 88,
+      "temp_id": 89,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        91,
+        93,
+        96
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1241
+        ],
+        [
+          1080,
+          1409
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 88,
+      "temp_id": 90,
+      "size": "1080*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        92
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1241
+        ],
+        [
+          168,
+          1409
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 90,
+      "temp_id": 91,
+      "size": "168*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a1b7d9507882719c50ceed6932e52d0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1241
+        ],
+        [
+          168,
+          1409
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_thumbnail_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 91,
+      "temp_id": 92,
+      "size": "168*168",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view[text]None[enabled,,]",
+      "view_str": "68bde93d83f916083c4068f4fea98fa1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        94,
+        95
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          1244
+        ],
+        [
+          949,
+          1406
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 90,
+      "temp_id": 93,
+      "size": "781*162",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "5ef489de9f0c01a080b1660df6d71725",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1244
+        ],
+        [
+          944,
+          1351
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "RACE TO SPACE - \u0411\u0443\u0434\u0435\u043c \u043a\u0430\u043a \u0421\u043e\u043b\u043d\u0446\u0435 [Futuristic Russian Electro] 2020",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 93,
+      "temp_id": 94,
+      "size": "771*107",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]None[enabled,,]",
+      "view_str": "b87c11aa149d9bc4be39d0207dd1961c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1351
+        ],
+        [
+          944,
+          1406
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": "26 pts 7 hours, 26 mins ago by Jankyfolk (youtu.be)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 93,
+      "temp_id": 95,
+      "size": "771*55",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]None[enabled,,]",
+      "view_str": "9d9cae8b7cbd6bdbd0d82f35cca9d409",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        97,
+        98
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1241
+        ],
+        [
+          1080,
+          1409
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 90,
+      "temp_id": 96,
+      "size": "131*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "a618cc9cb80d3634454df1bf01fe5980",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          1277
+        ],
+        [
+          1059,
+          1340
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 96,
+      "temp_id": 97,
+      "size": "89*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1345
+        ],
+        [
+          1080,
+          1384
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "2",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 96,
+      "temp_id": 98,
+      "size": "131*39",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]2[enabled,,]",
+      "view_str": "c1e8423a6249f2e2385780107a197cdf",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1240
+        ],
+        [
+          1080,
+          1354
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 87,
+      "temp_id": 99,
+      "size": "1080*114",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        101,
+        112
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1409
+        ],
+        [
+          1080,
+          1606
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 100,
+      "size": "1080*197",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        102,
+        103
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1409
+        ],
+        [
+          1080,
+          1606
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 100,
+      "temp_id": 101,
+      "size": "1080*197",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1409
+        ],
+        [
+          1080,
+          1410
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 101,
+      "temp_id": 102,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        104,
+        106,
+        109
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1410
+        ],
+        [
+          1080,
+          1606
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 101,
+      "temp_id": 103,
+      "size": "1080*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        105
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1410
+        ],
+        [
+          168,
+          1606
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 103,
+      "temp_id": 104,
+      "size": "168*196",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a1b7d9507882719c50ceed6932e52d0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1410
+        ],
+        [
+          168,
+          1606
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_thumbnail_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 104,
+      "temp_id": 105,
+      "size": "168*196",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view[text]None[enabled,,]",
+      "view_str": "68bde93d83f916083c4068f4fea98fa1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        107,
+        108
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          1410
+        ],
+        [
+          949,
+          1606
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 103,
+      "temp_id": 106,
+      "size": "781*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "5ef489de9f0c01a080b1660df6d71725",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1410
+        ],
+        [
+          944,
+          1517
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "Worm Is Green - The Future [electronic/trip hop] 2019",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 106,
+      "temp_id": 107,
+      "size": "771*107",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]None[enabled,,]",
+      "view_str": "b87c11aa149d9bc4be39d0207dd1961c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1517
+        ],
+        [
+          944,
+          1606
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": "9 pts 3 hours, 37 mins ago by Loren_from_Earth (youtu.be)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 106,
+      "temp_id": 108,
+      "size": "771*89",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]None[enabled,,]",
+      "view_str": "9d9cae8b7cbd6bdbd0d82f35cca9d409",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        110,
+        111
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1410
+        ],
+        [
+          1080,
+          1606
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 103,
+      "temp_id": 109,
+      "size": "131*196",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "7cbb9b77243d9f0e1fa5d0790cf51b7c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          1460
+        ],
+        [
+          1059,
+          1523
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 109,
+      "temp_id": 110,
+      "size": "89*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1528
+        ],
+        [
+          1080,
+          1567
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "0",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 109,
+      "temp_id": 111,
+      "size": "131*39",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]0[enabled,,]",
+      "view_str": "f8e245e12aa75f28bce2165c7493dfc9",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1409
+        ],
+        [
+          1080,
+          1523
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 100,
+      "temp_id": 112,
+      "size": "1080*114",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        114,
+        125
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1606
+        ],
+        [
+          1080,
+          1775
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 113,
+      "size": "1080*169",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        115,
+        116
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1606
+        ],
+        [
+          1080,
+          1775
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 113,
+      "temp_id": 114,
+      "size": "1080*169",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1606
+        ],
+        [
+          1080,
+          1607
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 114,
+      "temp_id": 115,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        117,
+        119,
+        122
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1607
+        ],
+        [
+          1080,
+          1775
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 114,
+      "temp_id": 116,
+      "size": "1080*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        118
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1607
+        ],
+        [
+          168,
+          1775
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 116,
+      "temp_id": 117,
+      "size": "168*168",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a1b7d9507882719c50ceed6932e52d0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1607
+        ],
+        [
+          168,
+          1775
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_thumbnail_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 117,
+      "temp_id": 118,
+      "size": "168*168",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view[text]None[enabled,,]",
+      "view_str": "68bde93d83f916083c4068f4fea98fa1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        120,
+        121
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          1631
+        ],
+        [
+          949,
+          1750
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 116,
+      "temp_id": 119,
+      "size": "781*119",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "742b0f3a61a77934472d0d426714492d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1631
+        ],
+        [
+          944,
+          1695
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "Hands Off Gretel - Milk [grunge] (2020)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 119,
+      "temp_id": 120,
+      "size": "771*64",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]Hands Off Gretel - Milk [grunge] (2020)[enabled,,]",
+      "view_str": "9c34744e7f31de1c0e0b45d2c46afa50",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1695
+        ],
+        [
+          944,
+          1750
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": "10 pts 7 hours, 2 mins ago by daxine (youtube.com)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 119,
+      "temp_id": 121,
+      "size": "771*55",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]10 pts 7 hours, 2 mins ago by daxine (youtube.com)[enabled,,]",
+      "view_str": "345f6328702d865017f35666f9162ce2",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        123,
+        124
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1607
+        ],
+        [
+          1080,
+          1775
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 116,
+      "temp_id": 122,
+      "size": "131*168",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "7cbb9b77243d9f0e1fa5d0790cf51b7c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          1643
+        ],
+        [
+          1059,
+          1706
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 122,
+      "temp_id": 123,
+      "size": "89*63",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1711
+        ],
+        [
+          1080,
+          1750
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "0",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 122,
+      "temp_id": 124,
+      "size": "131*39",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]0[enabled,,]",
+      "view_str": "f8e245e12aa75f28bce2165c7493dfc9",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1606
+        ],
+        [
+          1080,
+          1720
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 113,
+      "temp_id": 125,
+      "size": "1080*114",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        127,
+        138
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1775
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 18,
+      "temp_id": 126,
+      "size": "1080*19",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "ffcdf1e123d292b53e6ff472334b2639",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        128,
+        129
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1775
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 126,
+      "temp_id": 127,
+      "size": "1080*19",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e64c6baaaab413f933876e0285b4e0d1",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1775
+        ],
+        [
+          1080,
+          1776
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/view_reddit_post_divider_top",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 127,
+      "temp_id": 128,
+      "size": "1080*1",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top[text]None[enabled,,]",
+      "view_str": "0254eeb5322a2d21ac051549d92283be",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/view_reddit_post_divider_top"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        130,
+        132,
+        135
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1776
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_layout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 127,
+      "temp_id": 129,
+      "size": "1080*18",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout[text]None[enabled,,]",
+      "view_str": "ca90e704fd8c7f039e9d2d340be949f0",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_layout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        131
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1776
+        ],
+        [
+          168,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 129,
+      "temp_id": 130,
+      "size": "168*18",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1a1b7d9507882719c50ceed6932e52d0",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1776
+        ],
+        [
+          168,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_thumbnail_view",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 130,
+      "temp_id": 131,
+      "size": "168*18",
+      "signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view[text]None[enabled,,]",
+      "view_str": "68bde93d83f916083c4068f4fea98fa1",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]org.quantumbadger.redreader:id/reddit_post_thumbnail_view"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        133,
+        134
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          168,
+          1776
+        ],
+        [
+          949,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_textLayout",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 129,
+      "temp_id": 132,
+      "size": "781*18",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout[text]None[enabled,,]",
+      "view_str": "abcc564bb7f0161f427ac2a735882ca9",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_textLayout"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1776
+        ],
+        [
+          944,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_title",
+      "checked": false,
+      "text": "Hexsystems - Solutions [Electronic] (2020) Coronawave | Beats to Self-Isolate/Quarantine to",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 132,
+      "temp_id": 133,
+      "size": "771*18",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title[text]None[enabled,,]",
+      "view_str": "b87c11aa149d9bc4be39d0207dd1961c",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_title"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          173,
+          1926
+        ],
+        [
+          944,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_subtitle",
+      "checked": false,
+      "text": "2 pts 21 mins, 6 secs ago by MegaAhmadF (youtu.be)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 132,
+      "temp_id": 134,
+      "size": "771*-132",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle[text]2 pts 21 mins, 6 secs ago by MegaAhmadF (youtu.be)[enabled,,]",
+      "view_str": "5d2efe9d7ed3d650892c3dbab364f941",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_subtitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        136,
+        137
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1776
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 129,
+      "temp_id": 135,
+      "size": "131*18",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "7cbb9b77243d9f0e1fa5d0790cf51b7c",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": "View Comments",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          970,
+          1830
+        ],
+        [
+          1059,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 135,
+      "temp_id": 136,
+      "size": "89*-36",
+      "signature": "[class]android.widget.ImageView[resource_id]None[text]None[enabled,,]",
+      "view_str": "85f96618d4dbd21f669ed98668440072",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1898
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_text",
+      "checked": false,
+      "text": "0",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 135,
+      "temp_id": 137,
+      "size": "131*-104",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text[text]0[enabled,,]",
+      "view_str": "f8e245e12aa75f28bce2165c7493dfc9",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1775
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 126,
+      "temp_id": 138,
+      "size": "1080*19",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1674505f551c4338d03e2564e1bc0ec5",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        140
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          1067,
+          189
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/scrollbar_recyclerview_scrollbarframe",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 139,
+      "size": "13*1605",
+      "signature": "[class]android.widget.FrameLayout[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_scrollbarframe[text]None[enabled,,]",
+      "view_str": "adf108025d7fc37e0c070bf15ac53bdd",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_scrollbarframe"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          1067,
+          189
+        ],
+        [
+          1080,
+          294
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/scrollbar_recyclerview_scrollbar",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 139,
+      "temp_id": 140,
+      "size": "13*105",
+      "signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_scrollbar[text]None[enabled,,]",
+      "view_str": "cd203496705e90ff18e86b33e13cda52",
+      "content_free_signature": "[class]android.view.View[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_scrollbar"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          0
+        ],
+        [
+          1080,
+          63
+        ]
+      ],
+      "resource_id": "android:id/statusBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 141,
+      "size": "1080*63",
+      "signature": "[class]android.view.View[resource_id]android:id/statusBarBackground[text]None[enabled,,]",
+      "view_str": "7b087176a1cac326caed44369560a279",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/statusBarBackground"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": false,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          0,
+          1794
+        ],
+        [
+          1080,
+          1920
+        ]
+      ],
+      "resource_id": "android:id/navigationBarBackground",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 142,
+      "size": "1080*126",
+      "signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground[text]None[enabled,,]",
+      "view_str": "23de121e91e31a58962717f99c261afc",
+      "content_free_signature": "[class]android.view.View[resource_id]android:id/navigationBarBackground"
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "tag": "2020-03-15_005302",
+  "state_str": "ea19a74040e6b3b6cc79cbc238a0bb79",
+  "state_str_content_free": "86e8c5b722942734ddf0c418ae63a4a4",
+  "foreground_activity": "org.quantumbadger.redreader/.activities.MainActivity",
+  "activity_stack": [
+    "org.quantumbadger.redreader/.activities.MainActivity"
+  ],
+  "background_services": [
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.gms/.chimera.GmsBoundBrokerService",
+    "com.google.android.gms/.fido.fido2.pollux.CableAuthenticatorService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.google.android.apps.nexuslauncher/com.android.launcher3.notification.NotificationListener",
+    "com.android.systemui/.SystemUIService",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.android.stk/.StkAppService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.service.ims/.RcsService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.google.android.networkstack/com.android.server.NetworkStackService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.emulator.multidisplay/.MultiDisplayService",
+    "com.android.smspush/.WapPushManager",
+    "org.quantumbadger.redreader/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "com.android.ons/.OpportunisticNetworkService",
+    "com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionExecutorImpl",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService"
+  ],
+  "views": [
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          28,
+          627
+        ],
+        [
+          1052,
+          1229
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1024*602",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "0c9dbd29af4f113d88da1a6414a4a586",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          669
+        ],
+        [
+          1010,
+          1187
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "940*518",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "d046f91ec3d7576bf824ff93b91f8d51",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          669
+        ],
+        [
+          1010,
+          1187
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "940*518",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "152bd9948e1fd58cacf95048fb6a5a2c",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4,
+        7,
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          669
+        ],
+        [
+          1010,
+          1187
+        ]
+      ],
+      "resource_id": "android:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "940*518",
+      "signature": "[class]android.widget.LinearLayout[resource_id]android:id/parentPanel[text]None[enabled,,]",
+      "view_str": "830fa4c63da739c8f9747450e0145954",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]android:id/parentPanel"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          669
+        ],
+        [
+          1010,
+          787
+        ]
+      ],
+      "resource_id": "android:id/topPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "940*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]android:id/topPanel[text]None[enabled,,]",
+      "view_str": "2e44e3d3b33f6f2aed5a4f336538cd9d",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]android:id/topPanel"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          669
+        ],
+        [
+          1010,
+          787
+        ]
+      ],
+      "resource_id": "android:id/title_template",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "940*118",
+      "signature": "[class]android.widget.LinearLayout[resource_id]android:id/title_template[text]None[enabled,,]",
+      "view_str": "aa4c0162aec3cc26e9b79c61764e6fa3",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]android:id/title_template"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          133,
+          716
+        ],
+        [
+          947,
+          787
+        ]
+      ],
+      "resource_id": "android:id/alertTitle",
+      "checked": false,
+      "text": "Reddit Accounts",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "814*71",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/alertTitle[text]Reddit Accounts[enabled,,]",
+      "view_str": "a8e8bcd0b37e8b5791e860dd2412465a",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/alertTitle"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          787
+        ],
+        [
+          1010,
+          1039
+        ]
+      ],
+      "resource_id": "android:id/customPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 7,
+      "size": "940*252",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/customPanel[text]None[enabled,,]",
+      "view_str": "e94db416433a45d6e1c8556d8236889b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/customPanel"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          787
+        ],
+        [
+          1010,
+          1039
+        ]
+      ],
+      "resource_id": "android:id/custom",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "940*252",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/custom[text]None[enabled,,]",
+      "view_str": "b6877f13aa38b0f2fbb0ff15cdeea76a",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/custom"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        10,
+        11
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          70,
+          787
+        ],
+        [
+          1010,
+          1039
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.RecyclerView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 8,
+      "temp_id": 9,
+      "size": "940*252",
+      "signature": "[class]android.support.v7.widget.RecyclerView[resource_id]None[text]None[enabled,,]",
+      "view_str": "220b823e26831083718d231967715619",
+      "content_free_signature": "[class]android.support.v7.widget.RecyclerView[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          787
+        ],
+        [
+          1010,
+          913
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/recycler_item_text",
+      "checked": false,
+      "text": "Add Reddit Account",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 10,
+      "size": "940*126",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/recycler_item_text[text]Add Reddit Account[enabled,,]",
+      "view_str": "879bd2fb786bf00c932ca506683fff84",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/recycler_item_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          913
+        ],
+        [
+          1010,
+          1039
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/recycler_item_text",
+      "checked": false,
+      "text": "Anonymous  (Active)",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 9,
+      "temp_id": 11,
+      "size": "940*126",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/recycler_item_text[text]Anonymous  (Active)[enabled,,]",
+      "view_str": "7e4be5780169ebb67905db6fe2bbafd2",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/recycler_item_text"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          1039
+        ],
+        [
+          1010,
+          1187
+        ]
+      ],
+      "resource_id": "android:id/buttonPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 12,
+      "size": "940*148",
+      "signature": "[class]android.widget.ScrollView[resource_id]android:id/buttonPanel[text]None[enabled,,]",
+      "view_str": "1ad0adb61f0d72991bfc1891ac88e5e3",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]android:id/buttonPanel"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          70,
+          1039
+        ],
+        [
+          1010,
+          1187
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "940*148",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "388434baa455366df96ced962f1ad3d9",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          102,
+          1050
+        ],
+        [
+          276,
+          1176
+        ]
+      ],
+      "resource_id": "android:id/button3",
+      "checked": false,
+      "text": "CLOSE",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "174*126",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button3[text]CLOSE[enabled,,]",
+      "view_str": "5468db25b0f75aaeff6b3dcaac716d82",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button3"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "tag": "2020-03-15_005617",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        137,
+        138
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          949,
+          1748
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/reddit_post_comments_button",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 130,
+      "temp_id": 136,
+      "size": "131*46",
+      "signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button[text]None[enabled,,]",
+      "view_str": "458fa6484ecc7dee992dc9a97d599518",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]org.quantumbadger.redreader:id/reddit_post_comments_button"
+    }
+  },
+  "start_state": "02a1dc9d08920f0c06cc6747bcae59b0",
+  "stop_state": "1a70b818cea1b7b5aef96b7650bcef52",
+  "event_str": "TouchEvent(state=02a1dc9d08920f0c06cc6747bcae59b0, view=458fa6484ecc7dee992dc9a97d599518)"
+}

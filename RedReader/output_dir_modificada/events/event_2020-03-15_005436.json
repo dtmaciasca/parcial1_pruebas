@@ -1,0 +1,10 @@
+{
+  "tag": "2020-03-15_005436",
+  "event": {
+    "event_type": "intent",
+    "intent": "am start org.quantumbadger.redreader/org.quantumbadger.redreader.activities.MainActivity"
+  },
+  "start_state": "c18fda73f2ed956520ca99c091334f8f",
+  "stop_state": "298f6596eafb44ddcd81cc28ff8b8182",
+  "event_str": "IntentEvent(intent='am start org.quantumbadger.redreader/org.quantumbadger.redreader.activities.MainActivity')"
+}

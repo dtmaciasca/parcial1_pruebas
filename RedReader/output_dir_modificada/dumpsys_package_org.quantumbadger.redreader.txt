@@ -1,21 +1,21 @@
 Activity Resolver Table:
   Full MIME Types:
       text/plain:
-        a98f90e org.quantumbadger.redreader/.activities.PostSubmitActivity filter 95e766c
+        419f484 org.quantumbadger.redreader/.activities.PostSubmitActivity filter 721f623
           Action: "android.intent.action.SEND"
           Category: "android.intent.category.DEFAULT"
           Type: "text/plain"
 
   Base MIME Types:
       text:
-        a98f90e org.quantumbadger.redreader/.activities.PostSubmitActivity filter 95e766c
+        419f484 org.quantumbadger.redreader/.activities.PostSubmitActivity filter 721f623
           Action: "android.intent.action.SEND"
           Category: "android.intent.category.DEFAULT"
           Type: "text/plain"
 
   Schemes:
       http:
-        dd87f2f org.quantumbadger.redreader/.activities.LinkDispatchActivity filter 17d831f
+        9a5846d org.quantumbadger.redreader/.activities.LinkDispatchActivity filter 31ae352
           Action: "android.intent.action.VIEW"
           Category: "android.intent.category.DEFAULT"
           Category: "android.intent.category.BROWSABLE"
@@ -28,7 +28,7 @@ Activity Resolver Table:
           Authority: "reddit.com": -1
           Authority: "redd.it": -1
       https:
-        dd87f2f org.quantumbadger.redreader/.activities.LinkDispatchActivity filter 17d831f
+        9a5846d org.quantumbadger.redreader/.activities.LinkDispatchActivity filter 31ae352
           Action: "android.intent.action.VIEW"
           Category: "android.intent.category.DEFAULT"
           Category: "android.intent.category.BROWSABLE"
@@ -43,14 +43,14 @@ Activity Resolver Table:
 
   Non-Data Actions:
       android.intent.action.MAIN:
-        948a93c org.quantumbadger.redreader/.activities.MainActivity filter dc0d6be
+        320c8a2 org.quantumbadger.redreader/.activities.MainActivity filter 7019bdd
           Action: "android.intent.action.MAIN"
           Category: "android.intent.category.LAUNCHER"
           Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
 
   MIME Typed Actions:
       android.intent.action.SEND:
-        a98f90e org.quantumbadger.redreader/.activities.PostSubmitActivity filter 95e766c
+        419f484 org.quantumbadger.redreader/.activities.PostSubmitActivity filter 721f623
           Action: "android.intent.action.SEND"
           Category: "android.intent.category.DEFAULT"
           Type: "text/plain"
@@ -58,36 +58,36 @@ Activity Resolver Table:
 Receiver Resolver Table:
   Non-Data Actions:
       android.intent.action.BOOT_COMPLETED:
-        7e886c5 org.quantumbadger.redreader/.receivers.BootReceiver filter 8d58435
+        162f933 org.quantumbadger.redreader/.receivers.BootReceiver filter 486a720
           Action: "android.intent.action.BOOT_COMPLETED"
 
 Registered ContentProviders:
   org.quantumbadger.redreader/android.support.v4.content.FileProvider:
-    Provider{86f981a org.quantumbadger.redreader/android.support.v4.content.FileProvider}
+    Provider{f83d4f0 org.quantumbadger.redreader/android.support.v4.content.FileProvider}
 
 ContentProvider Authorities:
   [org.quantumbadger.redreader.provider]:
-    Provider{86f981a org.quantumbadger.redreader/android.support.v4.content.FileProvider}
-      applicationInfo=ApplicationInfo{5f7df4b org.quantumbadger.redreader}
+    Provider{f83d4f0 org.quantumbadger.redreader/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{7a2fa69 org.quantumbadger.redreader}
 
 Key Set Manager:
   [org.quantumbadger.redreader]
-      Signing KeySets: 38
+      Signing KeySets: 42
 
 Packages:
-  Package [org.quantumbadger.redreader] (f951d28):
-    userId=10149
-    pkg=Package{64fca41 org.quantumbadger.redreader}
-    codePath=/data/app/org.quantumbadger.redreader--AjctCdtKp2j5tpxMLGnjw==
-    resourcePath=/data/app/org.quantumbadger.redreader--AjctCdtKp2j5tpxMLGnjw==
-    legacyNativeLibraryDir=/data/app/org.quantumbadger.redreader--AjctCdtKp2j5tpxMLGnjw==/lib
+  Package [org.quantumbadger.redreader] (ee6ccee):
+    userId=10153
+    pkg=Package{8c9f58f org.quantumbadger.redreader}
+    codePath=/data/app/org.quantumbadger.redreader-2GRTuVw2wneWYiWZVpoV7A==
+    resourcePath=/data/app/org.quantumbadger.redreader-2GRTuVw2wneWYiWZVpoV7A==
+    legacyNativeLibraryDir=/data/app/org.quantumbadger.redreader-2GRTuVw2wneWYiWZVpoV7A==/lib
     primaryCpuAbi=null
     secondaryCpuAbi=null
     versionCode=87 minSdk=14 targetSdk=27
     versionName=1.9.10
     splits=[base]
     apkSigningVersion=2
-    applicationInfo=ApplicationInfo{5f7df4b org.quantumbadger.redreader}
+    applicationInfo=ApplicationInfo{7a2fa69 org.quantumbadger.redreader}
     flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
     privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS ]
     dataDir=/data/user/0/org.quantumbadger.redreader
@@ -98,10 +98,10 @@ Packages:
       com.sec.android.app.multiwindow
     usesLibraryFiles:
       /system/framework/org.apache.http.legacy.jar
-    timeStamp=2020-03-15 00:27:07
-    firstInstallTime=2020-03-15 00:27:07
-    lastUpdateTime=2020-03-15 00:27:07
-    signatures=PackageSignatures{edf1be6 version:2, signatures:[eec81754], past signatures:[]}
+    timeStamp=2020-03-15 00:50:26
+    firstInstallTime=2020-03-15 00:50:26
+    lastUpdateTime=2020-03-15 00:50:26
+    signatures=PackageSignatures{269501c version:2, signatures:[eec81754], past signatures:[]}
     installPermissionsFixed=true
     pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
     requested permissions:
@@ -114,26 +114,26 @@ Packages:
       android.permission.RECEIVE_BOOT_COMPLETED: granted=true
       android.permission.INTERNET: granted=true
       android.permission.ACCESS_NETWORK_STATE: granted=true
-    User 0: ceDataInode=-4294835976 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+    User 0: ceDataInode=-4294835896 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
       gids=[3003]
       runtime permissions:
         android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
         android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
 
 Package Changes:
-  Sequence number=27
+  Sequence number=35
   User 0:
     seq=0, package=org.gnucash.android
     seq=4, package=com.android.vending
     seq=12, package=com.google.android.syncadapters.contacts
     seq=14, package=com.google.android.gms
-    seq=25, package=io.github.ylimit.droidbotapp
-    seq=26, package=org.quantumbadger.redreader
+    seq=33, package=io.github.ylimit.droidbotapp
+    seq=34, package=org.quantumbadger.redreader
 
 
 Dexopt state:
   [org.quantumbadger.redreader]
-    path: /data/app/org.quantumbadger.redreader--AjctCdtKp2j5tpxMLGnjw==/base.apk
+    path: /data/app/org.quantumbadger.redreader-2GRTuVw2wneWYiWZVpoV7A==/base.apk
       x86: [status=run-from-apk] [reason=unknown]
 
 

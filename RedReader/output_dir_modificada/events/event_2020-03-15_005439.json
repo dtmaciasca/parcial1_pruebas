@@ -1,0 +1,52 @@
+{
+  "tag": "2020-03-15_005439",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "com.google.android.apps.nexuslauncher",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Search",
+      "children": [
+        22,
+        23,
+        24
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          52,
+          1650
+        ],
+        [
+          1027,
+          1797
+        ]
+      ],
+      "resource_id": "com.google.android.apps.nexuslauncher:id/search_container_all_apps",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 19,
+      "temp_id": 21,
+      "size": "975*147",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.nexuslauncher:id/search_container_all_apps[text]None[enabled,,]",
+      "view_str": "72de9f554d813e037597ea25539046eb",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.google.android.apps.nexuslauncher:id/search_container_all_apps"
+    }
+  },
+  "start_state": "be47b5e430efc5089d89e9b275c03901",
+  "stop_state": "2a3ea3e511667f8197b76c981af52d67",
+  "event_str": "TouchEvent(state=be47b5e430efc5089d89e9b275c03901, view=72de9f554d813e037597ea25539046eb)"
+}
