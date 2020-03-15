@@ -1,0 +1,7 @@
+{
+        "isSameDimensions": "true",
+        "dimensionDifference": { "width": 0, "height": 0 },
+        "rawMisMatchPercentage": 0.3488136574074074,
+        "misMatchPercentage": "0.35",
+        "diffBounds": { "top": 16, "left": 43, "bottom": 639, "right": 258},
+        "analysisTime": 547 }
