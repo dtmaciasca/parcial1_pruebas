@@ -1,0 +1,153 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/plain:
+        94f661d org.quantumbadger.redreader/.activities.PostSubmitActivity filter f6a898d
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+
+  Base MIME Types:
+      text:
+        94f661d org.quantumbadger.redreader/.activities.PostSubmitActivity filter f6a898d
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+
+  Schemes:
+      http:
+        f598092 org.quantumbadger.redreader/.activities.LinkDispatchActivity filter aa95a24
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: ".reddit.com": -1 WILD
+          Authority: "reddit.com": -1
+          Authority: "redd.it": -1
+          Authority: ".reddit.com": -1 WILD
+          Authority: "reddit.com": -1
+          Authority: "redd.it": -1
+      https:
+        f598092 org.quantumbadger.redreader/.activities.LinkDispatchActivity filter aa95a24
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: ".reddit.com": -1 WILD
+          Authority: "reddit.com": -1
+          Authority: "redd.it": -1
+          Authority: ".reddit.com": -1 WILD
+          Authority: "reddit.com": -1
+          Authority: "redd.it": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1346a63 org.quantumbadger.redreader/.activities.MainActivity filter 30b42b7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        94f661d org.quantumbadger.redreader/.activities.PostSubmitActivity filter f6a898d
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        74da660 org.quantumbadger.redreader/.receivers.BootReceiver filter 653b742
+          Action: "android.intent.action.BOOT_COMPLETED"
+
+Registered ContentProviders:
+  org.quantumbadger.redreader/android.support.v4.content.FileProvider:
+    Provider{3014719 org.quantumbadger.redreader/android.support.v4.content.FileProvider}
+
+ContentProvider Authorities:
+  [org.quantumbadger.redreader.provider]:
+    Provider{3014719 org.quantumbadger.redreader/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{18b13de org.quantumbadger.redreader}
+
+Key Set Manager:
+  [org.quantumbadger.redreader]
+      Signing KeySets: 36
+
+Packages:
+  Package [org.quantumbadger.redreader] (3f949bf):
+    userId=10147
+    pkg=Package{e56c88c org.quantumbadger.redreader}
+    codePath=/data/app/org.quantumbadger.redreader-3hDDmV2Q3tQUG5An2xI5Zw==
+    resourcePath=/data/app/org.quantumbadger.redreader-3hDDmV2Q3tQUG5An2xI5Zw==
+    legacyNativeLibraryDir=/data/app/org.quantumbadger.redreader-3hDDmV2Q3tQUG5An2xI5Zw==/lib
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    versionCode=87 minSdk=14 targetSdk=27
+    versionName=1.9.10
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{18b13de org.quantumbadger.redreader}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS ]
+    dataDir=/data/user/0/org.quantumbadger.redreader
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      org.apache.http.legacy
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2020-03-15 00:19:26
+    firstInstallTime=2020-03-15 00:19:26
+    lastUpdateTime=2020-03-15 00:19:26
+    signatures=PackageSignatures{4563bd5 version:2, signatures:[eec81754], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+    install permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=-4294835849 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+
+Package Changes:
+  Sequence number=23
+  User 0:
+    seq=0, package=org.gnucash.android
+    seq=4, package=com.android.vending
+    seq=12, package=com.google.android.syncadapters.contacts
+    seq=14, package=com.google.android.gms
+    seq=21, package=io.github.ylimit.droidbotapp
+    seq=22, package=org.quantumbadger.redreader
+
+
+Dexopt state:
+  [org.quantumbadger.redreader]
+    path: /data/app/org.quantumbadger.redreader-3hDDmV2Q3tQUG5An2xI5Zw==/base.apk
+      x86: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [org.quantumbadger.redreader]
+    (No recorded stats)
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:

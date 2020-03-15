@@ -1,0 +1,63 @@
+{
+  "tag": "2020-03-15_002209",
+  "event": {
+    "event_type": "scroll",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 13,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        18,
+        22,
+        27,
+        32,
+        33,
+        37,
+        42,
+        47,
+        52,
+        57,
+        62,
+        67,
+        72
+      ],
+      "focused": true,
+      "bounds": [
+        [
+          0,
+          189
+        ],
+        [
+          1080,
+          1794
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/scrollbar_recyclerview_recyclerview",
+      "checked": false,
+      "text": null,
+      "class": "android.support.v7.widget.RecyclerView",
+      "scrollable": true,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "1080*1605",
+      "signature": "[class]android.support.v7.widget.RecyclerView[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_recyclerview[text]None[enabled,,]",
+      "view_str": "77a0b0353e7dd54d96e1dba33031a652",
+      "content_free_signature": "[class]android.support.v7.widget.RecyclerView[resource_id]org.quantumbadger.redreader:id/scrollbar_recyclerview_recyclerview"
+    },
+    "direction": "LEFT"
+  },
+  "start_state": "397f5f45164dadf9336848d00ee0ed39",
+  "stop_state": "411a9faf8a09440cef39294c74fdc089",
+  "event_str": "ScrollEvent(state=397f5f45164dadf9336848d00ee0ed39, view=77a0b0353e7dd54d96e1dba33031a652, direction=LEFT)"
+}

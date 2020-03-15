@@ -1,0 +1,10 @@
+{
+  "tag": "2020-03-15_001928",
+  "event": {
+    "event_type": "key",
+    "name": "HOME"
+  },
+  "start_state": "02beb17c428b890f084d9f690fe906ae",
+  "stop_state": "02beb17c428b890f084d9f690fe906ae",
+  "event_str": "KeyEvent(state=02beb17c428b890f084d9f690fe906ae, name=HOME)"
+}

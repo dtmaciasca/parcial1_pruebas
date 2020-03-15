@@ -1,0 +1,52 @@
+{
+  "tag": "2020-03-15_003130",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "android",
+      "visible": false,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        62,
+        63,
+        64
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          270,
+          2204
+        ],
+        [
+          540,
+          1920
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 56,
+      "temp_id": 61,
+      "size": "270*-284",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "2610275cd6cccbc05661cb5da3e0ed4a",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    }
+  },
+  "start_state": "337f9fac561163d52f8a1c6da24d0c45",
+  "stop_state": "337f9fac561163d52f8a1c6da24d0c45",
+  "event_str": "TouchEvent(state=337f9fac561163d52f8a1c6da24d0c45, view=2610275cd6cccbc05661cb5da3e0ed4a)"
+}

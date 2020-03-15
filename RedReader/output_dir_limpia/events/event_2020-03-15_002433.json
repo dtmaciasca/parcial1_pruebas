@@ -1,0 +1,48 @@
+{
+  "tag": "2020-03-15_002433",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          63,
+          706
+        ],
+        [
+          1017,
+          833
+        ]
+      ],
+      "resource_id": "org.quantumbadger.redreader:id/list_item_text",
+      "checked": false,
+      "text": "/r/askreddit",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 35,
+      "temp_id": 36,
+      "size": "954*127",
+      "signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/list_item_text[text]/r/askreddit[enabled,,]",
+      "view_str": "d5443612ebf1fb7846f00fb99b0ee935",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]org.quantumbadger.redreader:id/list_item_text"
+    }
+  },
+  "start_state": "cbe2e451d33ca8f3d6813aedfd5ef8c1",
+  "stop_state": "ef24500e6efff24a1c84140943aed2eb",
+  "event_str": "TouchEvent(state=cbe2e451d33ca8f3d6813aedfd5ef8c1, view=d5443612ebf1fb7846f00fb99b0ee935)"
+}

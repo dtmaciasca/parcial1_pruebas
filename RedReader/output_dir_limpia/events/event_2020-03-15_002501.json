@@ -1,0 +1,48 @@
+{
+  "tag": "2020-03-15_002501",
+  "event": {
+    "event_type": "touch",
+    "x": null,
+    "y": null,
+    "view": {
+      "package": "org.quantumbadger.redreader",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": "Next Parent Comment",
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          870,
+          1604
+        ],
+        [
+          1017,
+          1731
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageButton",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": true,
+      "parent": 140,
+      "temp_id": 142,
+      "size": "147*127",
+      "signature": "[class]android.widget.ImageButton[resource_id]None[text]None[enabled,,]",
+      "view_str": "f3b4e50eda080958bcb292d65d042b88",
+      "content_free_signature": "[class]android.widget.ImageButton[resource_id]None"
+    }
+  },
+  "start_state": "79d49347a6e83653a34a2f09e22562dd",
+  "stop_state": "1e8d970a77b172f064d9bfa47e46d904",
+  "event_str": "TouchEvent(state=79d49347a6e83653a34a2f09e22562dd, view=f3b4e50eda080958bcb292d65d042b88)"
+}
