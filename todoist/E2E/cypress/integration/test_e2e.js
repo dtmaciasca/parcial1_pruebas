@@ -1,4 +1,4 @@
-describe('Agregar proyecto', function() {
+/*describe('Agregar proyecto', function() {
     it('Agregar proyecto', function() {
         cy.visit('https://todoist.com/app#start')
         cy.get(".standalone_page").find('input[name="email"]').click().type("tati@test.com")
@@ -25,8 +25,8 @@ describe('No agregue un proyecto sin nombre', function() {
       cy.get('div[id="left_menu"]').find('button[data-track="navigation|projects_quick_add"]').click()
       cy.get('form').find('button[aria-disabled="true"]')
     })
-})
-/*
+})*/
+
 describe('Editar proyecto', function() {
     it('Editar proyecto', function() {
         cy.visit('https://todoist.com/app#start')
@@ -41,14 +41,17 @@ describe('Editar proyecto', function() {
         cy.get('form').find('button[class="ist_button ist_button_red"]').click()
         cy.contains('Proyecto a editar').click()
         cy.get('.left_menu').get('ul').children('.current').find('table[class="item_table"]').find('td[class="menu"]').click({force: true})
+        cy.contains('Editar proyecto').click({force: true})
+
         cy.get('div[class="ist_menu"]').get('tr[class="project_archive_action project_inbox_action menu_item"]').find('td[data-track="projects|menu_edit"]').click()
+        cy.wait(1000)
         cy.get('form').find('input[id="edit_project_modal_field_name"]').click().type("Nombre editado")
         cy.get('div[id="dropdown-select-3-popup"]').find('li[id="dropdown-select-3-option-33"]').click()
         cy.get('button[class="ist_button ist_button_red"]').click()
         cy.get('div[id="left_menu"]').not('Proyecto a eliminar')
     })
-})*/
-
+})
+/*
 describe('Eliminar proyecto', function() {
     it('Eliminar proyecto', function() {
         cy.visit('https://todoist.com/app#start')
@@ -332,3 +335,4 @@ describe('Tu productividad', function() {
         cy.get('div[class="GB_Window_holder shadow"]').contains('Tendencia del Karma').click()
     })
 })
+*/

@@ -64,4 +64,53 @@ Then('I expect to see cucumberCUCUMBER',() => {
 browser.$('cucumberCUCUMBER').isDisplayed();
 });
 
+Given('I go to todoist', () => {
+  browser.url('https://todoist.com/app#start');
+});
 
+When('I try to login', () => {
+  var cajaLogIn = $('.standalone_page');
+  cajaLogIn.waitForExist(5000);
+  cajaLogIn.$('button[class="submit_btn ist_button ist_button_red sel_login"]').click();
+});
+
+When(/^I fill with (.*) and (.*)$/ , (email, password) => {
+  var cajaLogIn = $('.standalone_page');
+
+ var mailInput = cajaLogIn.$('input[name="email"]');
+ mailInput.click();
+ mailInput.keys(email);
+
+ var passwordInput = cajaLogIn.$('input[name="password"]');
+ passwordInput.click();
+ passwordInput.keys(password)
+});
+
+When('I want to add a project', () => {
+  var botonAdd = $('button[data-track="navigation|projects_quick_add"]');
+  botonAdd.waitForExist(5000);
+  browser.waitUntil(() => botonAdd.isClickable());
+  botonAdd.click();
+});
+
+When(/^I fill with (.*), (.*), (.*)$/ , (nombre, color, favorito) => {
+  var project = $('form');
+
+ var nameInput = project.$('input[id="edit_project_modal_field_name"]');
+ nameInput.click();
+ nameInput.keys(nombre);
+
+ if(favorito === true){
+   project.$('input[id="edit_project_modal_field_name"]').click();
+ }
+});
+
+When('I try to add project', () => {
+  browser.$('button[class="ist_button ist_button_red"]').click();
+});
+
+Then(/^I expect to see a project success (.*)$/, (nombre) => {
+ browser.$(nombre).isDisplayed(5000);
+ var menu = $('span[class="menu_icon fixed_pos"]');
+ menu.click()
+});
